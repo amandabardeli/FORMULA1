@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercedes AMG F1</title>
+    <link rel="icon" href="images/mercedes.ico">
+    <link rel="stylesheet" href="css/cadastro.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <nav>
+            <a href="index.html">
+                <img src="images/mercedes.ico" alt="Logo Mercedes" id="imagem"> </a>
+
+
+            <div class="links">
+                <ul class="nav-items">
+                    <li><a href="home.html" target="_blank"> Home </a> </li>
+                    <li><a href="calendario.html" target="_blank"> Calendário 2024 </a> </li>
+                    <li><a href="time.html" target="_blank"> Time 2024 </a> </li>
+                    <li><a href="carro.html" target="_blank"> Carros 2024 </a> </li>
+                </ul>
+            </div>
+
+            <div class="buttons">
+                <button type="submit" class="login">
+                    <a href="login.html" class="entre"> Login </a>
+                </button>
+                <button type="submit" class="login">
+                    <a href="cadastro.html" target="_blank" class="entre"> Cadastre-se </a>
+                </button>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="subtitulo">
+    </div>
+
+    <div class="Content">
+        <div class="box">
+            <form action="">
+                <fieldset>
+                    <legend><b>Cadastro de Usuário</b></legend>
+                    <br>
+
+                    <div class="inputBox">
+                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                        <label for="nome" class="labelInput">Nome</label>
+                    </div>
+                    <br>
+                    <br>
+
+                    <div class="inputBox">
+                        <input type="text" name="sobrenome" id="sobrenome" class="inputUser" required>
+                        <label for="sobrenome" class="labelInput">Sobrenome</label>
+                    </div>
+                    <br>
+                    <br>
+
+                    <div class="inputBox">
+                        <input type="text" name="email" id="email" class="inputUser" required>
+                        <label for="email" class="labelInput">E-mail</label>
+                    </div>
+                    <br>
+                    <br>
+
+                    <div class="inputBox">
+                        <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                        <label for="telefone" class="labelInput">Telefone</label>
+                    </div>
+                    <br>
+
+                    <p>Sexo:</p>
+                    <input type="radio" name="genero" id="genero" value="feminino" required>
+                    <label for="feminino" class="genero">Feminino</label>
+                    <input type="radio" name="genero" id="genero" value="masculino" required>
+                    <label for="masculino" class="genero">Masculino</label>
+                    <input type="radio" name="genero" id="genero" value="naoinformar" required>
+                    <label for="naoinformar" class="genero">Prefiro não informar</label>
+                    <br>
+                    <br>
+                    <br>
+
+                    <div class="inputBox">
+                        <input type="text" name="cep" id="cep" class="inputUser" required>
+                        <label for="cep" class="labelInput">CEP</label>
+                    </div>
+                    <br>
+                    <br>
+
+                    <div class="inputBox">
+                        <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                        <label for="endereco" class="labelInput">Endereço</label>
+                    </div>
+                    <br>
+                    <br>
+
+                    <div class="inputBox">
+                        <input type="text" name="numero" id="numero" class="inputUser" required>
+                        <label for="numero" class="labelInput">N°</label>
+                    </div>
+                    <br>
+                    <br>
+
+                    <div class="inputBox">
+                        <input type="text" name="bairro" id="bairro" class="inputUser" required>
+                        <label for="bairro" class="labelInput">Bairro</label>
+                    </div>
+                    <br>
+                    <br>
+
+                    <div class="inputBox">
+                        <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                        <label for="cidade" class="labelInput">Cidade</label>
+                    </div>
+                    <br>
+                    <br>
+
+                    <div class="inputBox">
+                        <input type="text" name="uf" id="uf" class="inputUser" required>
+                        <label for="uf" class="labelInput">UF</label>
+                    </div>
+                    <br>
+                    <br>
+
+                    <button type="submit" name="submit" id="submit">Salvar</button>
+                    <button type="reset" name="limpar" id="limpar">Limpar</button>
+
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <div class="rodape">
+        <footer>
+            <a href="home.html">
+                <img id="iconeFooter" src="images/mercedes.ico" alt="Logo da Mercedes">
+            </a>
+            <p>Copyright © 2024 - Mercedes AMG Petronas Formula One Team. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+    <script src="js/cadastro.js"></script>
+</body>
+
+</html>
